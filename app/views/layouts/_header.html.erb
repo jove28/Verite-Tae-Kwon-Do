@@ -1,0 +1,15 @@
+<header class='navbar navbar-fixed-top navbar-default'>
+  <div class="container text-right">
+    <%= link_to image_tag("verite_logo_remastered2.png", :alt => "Verite TaeKwonDo"), root_path, { :'data-no-turbolink' =>  "true", id: 'logo'} %>
+    <nav>
+      <ul class='nav navbar-nav'>
+        <li><%= link_to 'Home',   root_path, { :'data-no-turbolink' =>  "true" } %></li>
+        <li><%= link_to 'Contact Us',   contact_path %></li>
+        <li><%= link_to 'About Us', about_path %></li>
+        <li><%= link_to 'Shop', products_path %></li>
+      </ul>
+    </nav>
+    <%= render 'layouts/cart_text' %>
+    <%= link_to image_tag("empty-cart-light.png", :alt => "cart", class: ' cart cart-size'), cart_path, { :'data-no-turbolink' =>  "true", id: 'cart', class: 'text-right'} %>
+  </div>
+</header>

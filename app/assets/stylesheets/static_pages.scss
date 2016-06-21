@@ -1,0 +1,136 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+/* universal */
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+th, td {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  vertical-align: top;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  font-family: "Serif", serif, Times;
+}
+
+p {
+  font-size: 18px;
+}
+
+hr { 
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+} 
+
+li {
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+/* header */
+
+#hours, #locationInfo, #contactInfo {
+  margin-bottom: 25px;
+  outline-color:black;
+  outline-style:groove;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* size of footer navbar */
+.navbar-xs {
+  min-height:28px; height: 42px;
+  line-height: 10px;
+  padding-top: 0;
+}
+
+
+/* header background color */
+.navbar-default {
+  background-color: #000;
+  border-color: #000;
+}
+
+/* color of the links */
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #c3c3c3;
+}
+
+/* footer */
+
+#bottom {
+  float: left;
+  margin-right: 5px;
+  font-size: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#bottom_right {
+  padding-top: 1px;
+  color: #fff;
+}
+
+#bottom_right:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#bottom:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.map_italic {
+  font-style: italic;
+}
+
+.karateBanner {
+  border-style: solid;
+}
+
+#map {
+
+}

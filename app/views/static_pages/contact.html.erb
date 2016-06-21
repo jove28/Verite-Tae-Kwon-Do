@@ -1,0 +1,62 @@
+<div class="center">
+  <br>
+  <h1>Contact Us</h1>
+  <div class="col">
+  	<div class="col-md-3">
+  		<div id ="hours">
+  			<h3 style="background-color:#000000; color:#FFFFFF;">Hours</h3>
+  			<p>
+          <b>Monday-Friday</b> <br>
+          5:00-6:00PM     Children 4-8  <br>
+          6:00-7:00PM     Children 9-12  <br>
+          7:00-8:00PM     Ages 13 and up  <br>
+          8:00-8:45PM     Adults 35+  <br>
+          <br>
+          <b>Saturday</b>  <br>
+          8:00-9:00AM     Adults 35+  <br>
+          9:00-10:00AM   Children 4-8  <br>
+          10:00-11:00AM Children 9 and up  <br>
+  			</p>
+  		</div>
+  		<div id ="locationInfo">
+  			<h3 style="background-color:#000000; color:#FFFFFF;">Location Details</h3>
+  			<p>
+  				1200 North Georgetown St <br> 
+  				Round Rock, TX 78664
+          (The first portable)
+  			</p>
+  		</div>
+  		<div id ="contactInfo">
+  			<h3 style="background-color:#000000; color:#FFFFFF;">Contact Details</h3>
+  			<p>
+  				<b>Phone:</b> (512) 762-1572 <br> 
+  				<b>Email:</b> VeriteTKD@gmail.com <br>
+  			</p>
+  		</div>
+  	</div>
+    <br> <br>
+  	<div class ="col-md-9" style='width: 800px;'>
+  		<div id="map" style='width: 700px; height: 500px;'></div>
+		</div>
+  </div>
+
+  <script type="text/javascript">
+  	handler = Gmaps.build('Google');
+		handler.buildMap(
+			{ provider: {
+				disableDefaultUI: true,
+				zoom: 14,
+        center: {lat: 30.5200806, lng: -97.673571}
+			}, internal: {id: 'map'}}, function(){
+ 		markers = handler.addMarkers([
+    {
+      "lat": 30.5200806,
+      "lng": -97.673571,
+      "infowindow": "<div align = left> <h4>Verite Taekwondo</h4>" + "<p  class = map_italic>1200 North Georgetown St. <br> Round Rock, TX <br> Phone: (512) 762-1572</p></div>"
+    	}
+  	]);
+ 	 	handler.bounds.extendWith(markers);
+	});
+  </script>
+
+</div>
