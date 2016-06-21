@@ -8,11 +8,10 @@ Youtube video link: https://youtu.be/uaC41TEHPcA
 ## Development Resources
 * Quick youtube video about [Spree intergration](https://www.youtube.com/watch?v=IgCVg-GaQ2k) with a rails project, and discusses a couple of ways to alter the default styling
 * resource for [shopping cart](https://richonrails.com/articles/building-a-shopping-cart-in-ruby-on-rails) providing basic product models etc.
-* 
 
 ## Contributors
-Mark Seegers
-Reed Lacombe
-Cat Ockman
-Diego Oliveroz
-Ivins Jove
+* Mark Seegers
+* Reed Lacombe
+* Cat Ockman
+* Diego Oliveroz
+* Ivins Jove
